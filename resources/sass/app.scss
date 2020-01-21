@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.flex {
+  display: flex;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.flex.middle {
+  align-items: center;
+}
